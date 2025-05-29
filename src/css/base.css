@@ -1,32 +1,50 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+    /* Color custom properties */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+    --main-colour: #d0e1ff;
+    --purple: #6252b0;
+    --black: #000;
+    --poison-pink: #ff65a3;
+    --electric-gold: #ffd700;
+    --header: rgba(98, 82, 176, 0.4);
+    --acid-green: #a8f600;
+    --footer-coral-red: #ff595e;
+
+    /* Fonts custom properties */
+
+    --font-family: "Work Sans", sans-serif;
+    --second-family: "Orbitron", sans-serif;
+    --font3: "Chakra Petch", sans-serif;
 }
+
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+    background-color: var(--purple);
+    color: var(--main-colour);
+    font-family: var(--font-family);
+    margin: 0;
 }
 
-main {
-  flex-grow: 1;
+section {
+    margin-bottom: 50px;
 }
-main:has(.back-link) {
-  text-align: center;
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 0 16px;
+}
+
+@media screen and (min-width: 1200px) {
+    section {
+        margin-bottom: 80px;
+    }
+
+    .container {
+        max-width: 1200px;
+        padding: 0 80px;
+    }
 }

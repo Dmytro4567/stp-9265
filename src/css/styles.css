@@ -7,12 +7,18 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./container.css');
 @import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./home.css');
+@import url('./key-features.css');
+@import url('./game-description.css');
+@import url('./gameplay-controls.css');
+@import url('./hero-classes.css');
+@import url('./world-dungeons.css');
+@import url('./benefits.css');
+@import url('./gallery.css');
+@import url('./reviews.css');
+@import url('./faq.css');
 @import url('./footer.css');
