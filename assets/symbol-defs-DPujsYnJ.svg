@@ -1,0 +1,9 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="burger" viewBox="0 0 41 32">
+            <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.7647"
+                  d="M1.882 1.882h37.647M1.882 30.118h37.647M1.882 16h37.647"></path>
+        </symbol>
+    </defs>
+</svg>
