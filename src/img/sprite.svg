@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+        <symbol id="icon-back" viewBox="0 0 32 32">
+            <path d="M13.525 26.183c5.629 0 10.192-4.563 10.192-10.192S19.154 5.799 13.525 5.799c-5.629 0-10.192 4.563-10.192 10.192s4.563 10.192 10.192 10.192z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="m15.25 20.5-4.5-4.5 4.5-4.5"/>
+        </symbol>
+        <symbol id="icon-left" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"
+                  d="m30.667 17.329-24 .005m0-.001L13.129 24m-6.462-6.667 6.462-6.667"/>
+        </symbol>
+        <symbol id="icon-right" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"
+                  d="m1.333 17.329 24 .005m0-.001L18.872 24m6.461-6.667-6.461-6.667"/>
+        </symbol>
+        <symbol id="icon-down" viewBox="0 0 32 32">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m29.44 12-12.8 10.667L3.84 12"/>
+        </symbol>
+        <symbol id="burger" viewBox="0 0 41 32">
+            <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.7647"
+                  d="M1.882 1.882h37.647M1.882 30.118h37.647M1.882 16h37.647"></path>
+        </symbol>
+    </defs>
+</svg>
