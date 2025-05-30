@@ -17,6 +17,11 @@
   --font3: 'Chakra Petch', sans-serif;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--purple);
   color: var(--main-colour);
