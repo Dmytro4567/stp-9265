@@ -1,0 +1,5 @@
+.hero-classes {
+  background-image: url(/img/hero/hero-image.jpg);
+  @media screen and (min-resolution) {
+  }
+}
