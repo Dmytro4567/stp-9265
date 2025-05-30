@@ -19,7 +19,7 @@
   margin-left: 14px;
 }
 
-.privacy-terms-header {
+.privacy-header {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 36px;
@@ -27,16 +27,20 @@
   margin-bottom: 30px;
 }
 
-.privacy-terms-text {
+.privacy-text {
   margin-bottom: 30px;
 }
 
-ul.privacy-terms-text {
+.privacy-text-no-margin {
+  margin-bottom: 0;
+}
+
+ul.privacy-text {
   list-style: disc;
   padding-left: 16px;
 }
 
-.privacy-terms-title {
+.privacy-title {
   font-family: var(--second-family);
   font-size: 24px;
   margin-bottom: 15px;
