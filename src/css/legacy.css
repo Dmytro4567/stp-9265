@@ -1,25 +1,25 @@
-.privacy-container {
+.legacy-container {
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-.privacy-nav {
+.legacy-nav {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.privacy-nav-icon {
+.legacy-nav-icon {
     width: 32px;
     height: 32px;
 }
 
-.privacy-nav-text {
+.legacy-nav-text {
     font-family: var(--third-family);
     margin-left: 14px;
 }
 
-.privacy-header {
+.legacy-header {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 36px;
@@ -27,26 +27,26 @@
     margin-bottom: 30px;
 }
 
-.privacy-text {
+.legacy-text {
     margin-bottom: 30px;
 }
 
-.privacy-text-no-margin {
+.legacy-text-no-margin {
     margin-bottom: 0;
 }
 
-ul.privacy-text {
+ul.legacy-text {
     list-style: disc;
     padding-left: 16px;
 }
 
-.privacy-title {
+.legacy-title {
     font-family: var(--second-family);
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
-.privacy-cookies-header {
+.legacy-cookies-header {
     font-size: 24px;
 }
