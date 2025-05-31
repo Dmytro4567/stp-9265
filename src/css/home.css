@@ -1,10 +1,12 @@
 .home {
-  background-image: url(/img/hero/hero-image-mob.jpg);
+  /* background-image: url(/img/hero/hero-image-mob.jpg); */
+  background-image: url(/img/hero/hero-image-desk.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 58px 0 50px;
   @media screen and (min-resolution: 192dpi) {
-    background-image: url(/img/hero/hero-image-mob@2x.jpg);
+    background-image: url(/img/hero/hero-image-desk@2x.jpg);
   }
 }
 
@@ -39,14 +41,19 @@
   background-color: var(--electric-gold);
   box-shadow: 0 0 40px 0 var(--electric-gold);
   color: var(--black);
+  transition: background-color 250ms, box-shadow 250ms;
 }
 
-@media screen and (min-width: 1280px) {
+.home-download-link:active {
+  box-shadow: 0 0 40px 0 #ffe974, 0 0 60px 0 #ffe974;
+  background: #ffe974;
+}
+
+@media screen and (min-width: 1200px) {
   .home {
     background-image: url(/img/hero/hero-image-desk.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 103px 0 146px;
+    padding: 110px 0 146px;
+    margin-bottom: 50px;
     @media screen and (min-resolution: 192dpi) {
       background-image: url(/img/hero/hero-image-desk@2x.jpg);
     }
@@ -58,29 +65,41 @@
 
   .home-title {
     font-family: var(--font3);
-    margin-bottom: 242px;
+    margin-bottom: 30px;
     font-size: 64px;
     text-align: left;
   }
 
   .home-text {
     text-align: left;
-    margin-left: 93px;
-    font-size: 20px;
   }
 
   .home-text:not(:last-of-type) {
-    display: none;
+    font-family: var(--second-family);
+    font-size: 36px;
+    width: 530px;
+    margin-bottom: 115px;
   }
 
   .home-text:last-of-type {
-    margin-bottom: 16px;
+    margin: 0 0 16px 86px;
+    font-size: 20px;
   }
 
   .home-download-link {
     height: 70px;
     border-radius: 20px;
     width: 195px;
-    margin-left: 95px;
+    margin-left: 88px;
+  }
+
+  .home-download-link:hover,
+  .home-download-link:focus {
+    height: 70px;
+    border-radius: 20px;
+    width: 195px;
+    margin-left: 88px;
+    box-shadow: 0 0 40px 0 #ffe974, 0 0 60px 0 #ffe974;
+    background: #ffe974;
   }
 }

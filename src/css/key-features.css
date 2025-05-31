@@ -1,0 +1,121 @@
+.key-features-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--second-family);
+  margin-bottom: 30px;
+}
+
+.key-features-list-item {
+  padding: 0 38px;
+}
+
+.key-features img {
+  margin-bottom: 16px;
+}
+
+.key-features p {
+  text-align: center;
+}
+
+#key-features .swiper-wrapper {
+  margin-bottom: 30px;
+}
+
+#key-features .swiper-pagination {
+  position: static;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+#key-features .swiper-pagination-bullet {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffd700;
+  margin: 0;
+  opacity: 1;
+}
+
+#key-features .swiper-pagination-bullet-active {
+  background-color: #ff65a3;
+}
+
+#key-features .swiper-pagination-bullet-active:focus,
+#key-features .swiper-pagination-bullet-active:active,
+#key-features .swiper-pagination-bullet-active:hover {
+  background-color: #ff65a3;
+}
+
+.swiper-pagination-wrapper {
+  display: flex;
+  align-items: center;
+  width: 214px;
+  margin: 0 auto;
+}
+
+.swiper-pagination-wrapper button {
+  display: block;
+  padding: 0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+}
+
+.swiper-pagination-wrapper button:disabled {
+  opacity: 0.3;
+}
+
+.swiper-navigation-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.left {
+  transform: rotateY(180deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .key-features-title {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .swiper-pagination-wrapper {
+    display: none;
+  }
+
+  #key-features .swiper {
+    margin-left: 0;
+    margin-right: 0;
+    position: static;
+    overflow: hidden;
+    display: block;
+  }
+
+  #key-features .swiper-wrapper {
+    position: static;
+    display: flex;
+    box-sizing: border-box;
+    column-gap: 40px;
+    row-gap: 30px;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #key-features .swiper-slide {
+    flex-shrink: 0;
+    width: 217px;
+    height: 100%;
+    position: static;
+    display: block;
+    padding: 0;
+  }
+
+  .key-features img {
+    margin-bottom: 20px;
+  }
+}

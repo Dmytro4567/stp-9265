@@ -3,6 +3,8 @@
   position: sticky;
   top: 0;
   background-color: var(--purple);
+  z-index: 1000;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header .container {
@@ -40,13 +42,13 @@
   display: none;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .header {
-    padding: 26px 0 20px;
+    padding: 26px 0 24px;
   }
 
   .header .container {
-    padding: 0 36px 0 79px;
+    padding: 0 30px;
   }
 
   .header-wrapper {
@@ -58,9 +60,9 @@
   }
 
   .hero-logo-link {
-    width: 196px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 24px;
+    width: 175px;
+    font-family: var(--second-family);
+    font-size: 20px;
     flex-shrink: 0;
   }
 
@@ -77,5 +79,10 @@
 
   .header-nav-list a:active {
     color: #dfdada;
+  }
+
+  .header-nav-list a:focus,
+  .header-nav-list a:hover {
+    font-weight: 600;
   }
 }
