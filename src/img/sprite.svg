@@ -19,5 +19,12 @@
             <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.7647"
                   d="M1.882 1.882h37.647M1.882 30.118h37.647M1.882 16h37.647"></path>
         </symbol>
+        <symbol id="arrow-left" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M30.667 17.329l-24 0.005M6.667 17.333l6.462 6.667M6.667 17.333l6.462-6.667"></path>
+        </symbol>
+        <symbol id="arrow-right" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M5.333 16h21.333"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M18.667 8l8 8-8 8"></path>
+        </symbol>
     </defs>
 </svg>
