@@ -1,0 +1,98 @@
+.review-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.reviews-avatar-container {
+  display: flex;
+}
+
+.reviews-avatar {
+  align-self: end;
+  width: 54px;
+  height: 54px;
+}
+
+.reviews-message {
+  box-sizing: border-box;
+  position: relative;
+  background: var(--acid-green);
+  color: #000;
+  padding: 7px 12px;
+  border-radius: 30px;
+  width: 214px;
+  box-shadow: 0 0 40px 0 var(--acid-green);
+  margin-bottom: 36px;
+}
+
+.reviews-message::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -19px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 34px 8px 0;
+  border-color: transparent var(--acid-green) transparent transparent;
+  transform: rotate(-32deg);
+}
+
+.reviews-message-left::before {
+  content: "";
+  left: auto;
+  right: -18px;
+  bottom: -10px;
+  transform: rotate(-140deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .reviews {
+    padding-bottom: 10px;
+  }
+  .review-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .review-item {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+
+  .reviews-message {
+    width: 361px;
+    margin-bottom: 0;
+  }
+
+  .review-item-gianni {
+    order: 4;
+  }
+
+  .review-item-stephanie {
+    order: 2;
+  }
+
+  .review-item-riko {
+    order: 1;
+  }
+
+  .review-item-leo {
+    order: 3;
+  }
+
+  .reviews-avatar-container {
+    position: relative;
+    width: 93px;
+    height: 93px;
+  }
+
+  .reviews-avatar {
+    width: 93px;
+    height: 93px;
+    position: absolute;
+    top: 50px;
+  }
+}
