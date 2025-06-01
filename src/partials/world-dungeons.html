@@ -1,5 +1,126 @@
-<div class="container">
-  <section class="world-dungeons" id="world-dungeons">
-    world-dungeons
-  </section>
-</div>
+<section class="world-dungeons" id="world-dungeons">
+  <div class="container">
+    <h2 class="world-dungeons-title">World & Dungeons</h2>
+    <div class="swiper" id="world-dungeons-swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide reverse-flex">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/first-dungeon-desk.jpg    1x,
+                /img/world-dungeons/first-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/first-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/first-dungeon-mob@2x.jpg 2x"
+              alt="Boy with a sword in the dark against a monster"
+            />
+          </picture>
+          <p class="world-dungeons-text">
+            Mazdor`s Keep - Final zone with maze-like floors and elite bosses
+          </p>
+        </li>
+        <li class="swiper-slide reverse-flex">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/second-dungeon-desk.jpg    1x,
+                /img/world-dungeons/second-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/second-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/second-dungeon-mob@2x.jpg 2x"
+              alt="Snow-covered castle"
+            />
+          </picture>
+          <p class="world-dungeons-text">
+            Ashforge Ruins - Fire-themed dungeon with lava traps
+          </p>
+        </li>
+        <li class="swiper-slide reverse-flex">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/third-dungeon-desk.jpg    1x,
+                /img/world-dungeons/third-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/third-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/third-dungeon-mob@2x.jpg 2x"
+              alt="Young female warrior with a sword."
+            />
+          </picture>
+          <p class="world-dungeons-text">
+            Glacial Tombs - Frozen corridors and slippery floors
+          </p>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/fourth-dungeon-desk.jpg    1x,
+                /img/world-dungeons/fourth-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/fourth-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/fourth-dungeon-mob@2x.jpg 2x"
+              alt="Verdant Depths"
+            />
+          </picture>
+          <p class="world-dungeons-text down-text">
+            Verdant Depths - Plant monsters and poison hazards
+          </p>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/fifth-dungeon-desk.jpg    1x,
+                /img/world-dungeons/fifth-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/fifth-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/fifth-dungeon-mob@2x.jpg 2x"
+              alt="Aether Citadel"
+            />
+          </picture>
+          <p class="world-dungeons-text down-text">
+            Aether Citadel - Cosmic magic & dimensional rifts
+          </p>
+        </li>
+      </ul>
+      <div class="swiper-pagination-wrapper">
+        <button id="world-dungeons-swiper-prev">
+          <svg class="swiper-navigation-icon left">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+        <div
+          class="swiper-pagination"
+          id="world-dungeons-swiper-pagination"
+        ></div>
+        <button id="world-dungeons-swiper-next">
+          <svg class="swiper-navigation-icon">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <p>All maps are procedurally generated — no two runs are the same.</p>
+  </div>
+</section>

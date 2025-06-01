@@ -69,13 +69,13 @@
   display: block;
   width: 10px;
   height: 10px;
-  background-color: #ffd700;
+  background-color: var(--electric-gold);
   margin: 0;
   opacity: 1;
 }
 
 #hero-classes .swiper-pagination-bullet-active {
-  background-color: #ff65a3;
+  background-color: var(--poison-pink);
 }
 
 #hero-classes .swiper-pagination-wrapper button:disabled {
