@@ -1,3 +1,15 @@
+.reviews-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.reviews-text {
+  margin-bottom: 30px;
+}
+
 .review-item {
   display: flex;
   justify-content: space-between;
@@ -51,6 +63,12 @@
   .reviews {
     padding-bottom: 10px;
   }
+
+  .reviews-title {
+    font-size: 36px;
+    text-align: left;
+  }
+
   .review-list {
     display: flex;
     flex-wrap: wrap;
