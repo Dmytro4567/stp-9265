@@ -1,0 +1,61 @@
+.gameplay-controls-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.gameplay-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 27px;
+}
+
+.gameplay-item {
+  width: 47%;
+}
+
+.gameplay-item img {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .gameplay-controls-title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+
+  .gameplay-item {
+    width: 29%;
+  }
+
+  .gameplay-list {
+    row-gap: 75px;
+  }
+
+  .gameplay-item1 {
+    order: 1;
+  }
+
+  .gameplay-item2 {
+    order: 3;
+  }
+
+  .gameplay-item3 {
+    order: 4;
+  }
+
+  .gameplay-item4 {
+    order: 2;
+  }
+
+  .gameplay-item5 {
+    order: 6;
+  }
+
+  .gameplay-item6 {
+    order: 5;
+  }
+}
