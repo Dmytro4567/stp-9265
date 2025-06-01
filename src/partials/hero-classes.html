@@ -1,3 +1,186 @@
-<div class="container">
-  <section class="hero-classes" id="hero-classes">hero-classes</section>
-</div>
+<section class="hero-classes" id="hero-classes">
+  <div class="container">
+    <h2 class="hero-classes-title">Hero Classes</h2>
+    <p class="hero-classes-text">
+      Each hero starts weak… and becomes unstoppable.
+    </p>
+    <ul class="hero-classes-table-titles">
+      <li class="hero-classes-table-titles-hero">Hero</li>
+      <li class="hero-classes-table-titles-style">Style</li>
+      <li>Specialty</li>
+    </ul>
+    <div class="swiper" id="hero-classes-swiper">
+      <ul class="swiper-wrapper">
+        <li class="hero-classes-list-item swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/hero-classes/first-hero-classes-desk.png    1x,
+                /img/hero-classes/first-hero-classes-desk@2x.png 2x
+              "
+            />
+            <img
+              srcset="
+                /img/hero-classes/first-hero-classes-mob.jpg    1x,
+                /img/hero-classes/first-hero-classes-mob@2x.jpg 2x
+              "
+              alt="Eizo the Shadowblade"
+            />
+          </picture>
+          <div class="hero-classes-description">
+            <h3 class="hero-classes-description-title">Eizo the Shadowblade</h3>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Style -</span> Assassin
+            </p>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Specialty - </span>Invisibility &
+              poison burst
+            </p>
+          </div>
+        </li>
+        <li class="hero-classes-list-item swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/hero-classes/second-hero-classes-desk.png    1x,
+                /img/hero-classes/second-hero-classes-desk@2x.png 2x
+              "
+            />
+            <img
+              srcset="
+                /img/hero-classes/second-hero-classes-mob.jpg    1x,
+                /img/hero-classes/second-hero-classes-mob@2x.jpg 2x
+              "
+              alt="Kael the Swordmaster"
+            />
+          </picture>
+          <div class="hero-classes-description">
+            <h3 class="hero-classes-description-title">Kael the Swordmaster</h3>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Style -</span> Melee
+            </p>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Specialty - </span>Area damage,
+              critical strikes
+            </p>
+          </div>
+        </li>
+        <li class="hero-classes-list-item swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/hero-classes/third-hero-classes-desk.png    1x,
+                /img/hero-classes/third-hero-classes-desk@2x.png 2x
+              "
+            />
+            <img
+              srcset="
+                /img/hero-classes/third-hero-classes-mob.jpg    1x,
+                /img/hero-classes/third-hero-classes-mob@2x.jpg 2x
+              "
+              alt="Mira the Wind Archer"
+            />
+          </picture>
+          <div class="hero-classes-description">
+            <h3 class="hero-classes-description-title">Mira the Wind Archer</h3>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Style -</span>Ranged
+            </p>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Specialty - </span> Multi-target
+              attacks, traps
+            </p>
+          </div>
+        </li>
+        <li class="hero-classes-list-item swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/hero-classes/fourth-hero-classes-desk.png    1x,
+                /img/hero-classes/fourth-hero-classes-desk@2x.png 2x
+              "
+            />
+            <img
+              srcset="
+                /img/hero-classes/fourth-hero-classes-mob.jpg    1x,
+                /img/hero-classes/fourth-hero-classes-mob@2x.jpg 2x
+              "
+              alt="Juno the Thunder Monk"
+            />
+          </picture>
+          <div class="hero-classes-description">
+            <h3 class="hero-classes-description-title">
+              Juno the Thunder Monk
+            </h3>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Style -</span>Melee/Magic
+            </p>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Specialty - </span>Combo chain &
+              lightning storm
+            </p>
+          </div>
+        </li>
+        <li class="hero-classes-list-item swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/hero-classes/fifth-hero-classes-desk.png    1x,
+                /img/hero-classes/fifth-hero-classes-desk@2x.png 2x
+              "
+            />
+            <img
+              srcset="
+                /img/hero-classes/fifth-hero-classes-mob.jpg    1x,
+                /img/hero-classes/fifth-hero-classes-mob@2x.jpg 2x
+              "
+              alt="Lani the Crystal Witch"
+            />
+          </picture>
+          <div class="hero-classes-description">
+            <h3 class="hero-classes-description-title">
+              Lani the Crystal Witch
+            </h3>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Style -</span>Mage
+            </p>
+            <p class="hero-classes-description-text">
+              <span class="hidden-speciality">Specialty - </span>Ice storms,
+              freezing enemies
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="swiper-pagination-wrapper">
+        <button id="hero-classes-swiper-prev">
+          <svg class="swiper-navigation-icon left">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+        <div
+          class="swiper-pagination"
+          id="hero-classes-swiper-pagination"
+        ></div>
+        <button id="hero-classes-swiper-next">
+          <svg class="swiper-navigation-icon">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div>
+        <p>All heroes have:</p>
+        <ul class="hero-classes-hero-owner-list">
+          <li>4 unlockable abilities</li>
+          <li>Random power modifiers during each run</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

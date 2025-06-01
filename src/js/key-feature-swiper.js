@@ -13,12 +13,12 @@ function initSwiperKeyFeatures() {
       spaceBetween: 32,
       slidesPerView: 1,
       pagination: {
-        el: '#swiper-pagination',
+        el: '#key-features-swiper-pagination',
         clickable: true,
       },
       navigation: {
-        nextEl: '#swiper-next',
-        prevEl: '#swiper-prev',
+        nextEl: '#key-features-swiper-next',
+        prevEl: '#key-features-swiper-prev',
       },
     });
   } else if (!mobileMediaQuery.matches && keyFeaturesSwiper) {
