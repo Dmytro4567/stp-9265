@@ -1,0 +1,187 @@
+.hero-classes-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--second-family);
+  margin-bottom: 30px;
+}
+
+.hero-classes-text {
+  display: none;
+}
+
+#hero-classes .hero-classes-list-item {
+  width: 234px;
+  padding: 0 27px;
+}
+
+.hero-classes-description {
+  background-color: var(--poison-pink);
+  border-radius: 0 0 20px 20px;
+  padding: 10px 0;
+}
+
+.hero-classes-description-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: var(--black);
+  margin-bottom: 10px;
+}
+
+.hero-classes-description-text {
+  font-size: 12px;
+  text-align: center;
+  color: var(--black);
+  max-width: 154px;
+  margin: 0 auto 10px;
+}
+
+#hero-classes .swiper-wrapper {
+  margin-bottom: 30px;
+}
+
+#hero-classes .swiper-pagination-wrapper {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#hero-classes .swiper-pagination-wrapper button {
+  display: block;
+  padding: 0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+}
+
+#hero-classes .swiper-pagination {
+  position: static;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+#hero-classes .swiper-pagination-bullet {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffd700;
+  margin: 0;
+  opacity: 1;
+}
+
+#hero-classes .swiper-pagination-bullet-active {
+  background-color: #ff65a3;
+}
+
+#hero-classes .swiper-pagination-wrapper button:disabled {
+  opacity: 0.3;
+}
+
+#hero-classes .swiper-navigation-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#hero-classes .hero-classes-hero-owner-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.hero-classes-table-titles {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-classes-title {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .hero-classes-text {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .hero-classes-table-titles {
+    display: flex;
+    border-bottom: 4px solid #d0e1ff;
+    padding-left: 88px;
+    margin-bottom: 6px;
+  }
+
+  .hero-classes-table-titles li {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: var(--third-family);
+  }
+
+  .hero-classes-table-titles-hero {
+    margin-right: 306px;
+  }
+
+  .hero-classes-table-titles-style {
+    margin-right: 214px;
+  }
+
+  #hero-classes .swiper-wrapper {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  #hero-classes .hero-classes-list-item {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 8px 5px;
+    font-family: var(--third-family);
+  }
+
+  #hero-classes .hero-classes-list-item:nth-child(odd) {
+    background-color: var(--poison-pink);
+  }
+
+  .hero-classes-description {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-classes-description-title {
+    width: 348px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .hero-classes-description-text {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .hidden-speciality {
+    display: none;
+  }
+
+  .hero-classes-description-text:first-of-type {
+    width: 266px;
+    max-width: 266px;
+  }
+
+  .hero-classes-description-text:last-of-type {
+    width: 290px;
+    max-width: 290px;
+  }
+
+  #hero-classes .swiper-pagination-wrapper {
+    display: none;
+  }
+}
