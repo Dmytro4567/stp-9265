@@ -23,6 +23,7 @@
   color: var(--black);
 }
 
+
 @media screen and (min-width: 1200px) {
   .benefits-title {
     font-size: 36px;
