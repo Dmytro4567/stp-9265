@@ -5,10 +5,16 @@ document.addEventListener('DOMContentLoaded', function () {
     cookiesModal.style.display = 'block';
   }
 
-  cookiesModal.querySelectorAll('.cookies-modal-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      localStorage.setItem('cookies', 'true');
-      cookiesModal.style.display = 'none';
-    });
+  const acceptBtn = cookiesModal.querySelector('[data-cookie-action="accept"]');
+  const declineBtn = cookiesModal.querySelector('[data-cookie-action="decline"]');
+
+  acceptBtn.addEventListener('click', () => {
+    localStorage.setItem('cookies', 'true');
+    cookiesModal.style.display = 'none';
+  });
+
+  declineBtn.addEventListener('click', () => {
+    localStorage.setItem('cookies', 'true');
+    cookiesModal.style.display = 'none';
   });
 });
