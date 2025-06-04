@@ -1,5 +1,94 @@
-<div class="container">
-  <section class="gallery" id="gallery">
-    gallery
-  </section>
-</div>
+<section class="gallery" id="gallery">
+  <div class="container">
+    <h2 class="gallery-title">Gallery</h2>
+
+    <div class="swiper" id="gallery-swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/gallery/first-gallery-desk.jpg    1x,
+                /img/gallery/first-gallery-desk@2x.jpg 2x
+              " />
+            <img
+              src="/img/gallery/first-gallery-mob.jpg"
+              srcset="/img/gallery/first-gallery-mob@2x.jpg 2x"
+              alt=""
+          /></picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/gallery/second-gallery-desk.jpg    1x,
+                /img/gallery/second-gallery-desk@2x.jpg 2x
+              " />
+            <img
+              src="/img/gallery/second-gallery-mob.jpg"
+              srcset="/img/gallery/second-gallery-mob@2x.jpg 2x"
+              alt=""
+          /></picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/gallery/third-gallery-desk.jpg    1x,
+                /img/gallery/third-gallery-desk@2x.jpg 2x
+              " />
+            <img
+              src="/img/gallery/third-gallery-mob.jpg"
+              srcset="/img/gallery/third-gallery-mob@2x.jpg 2x"
+              alt=""
+          /></picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/gallery/fourth-gallery-desk.jpg    1x,
+                /img/gallery/fourth-gallery-desk@2x.jpg 2x
+              " />
+            <img
+              src="/img/gallery/fourth-gallery-mob.jpg"
+              srcset="/img/gallery/fourth-gallery-mob@2x.jpg 2x"
+              alt=""
+          /></picture>
+        </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/gallery/fifth-gallery-desk.jpg    1x,
+                /img/gallery/fifth-gallery-desk@2x.jpg 2x
+              " />
+            <img
+              src="/img/gallery/fifth-gallery-mob.jpg"
+              srcset="/img/gallery/fifth-gallery-mob@2x.jpg 2x"
+              alt=""
+          /></picture>
+        </li>
+      </ul>
+
+      <div class="swiper-pagination-wrapper">
+        <button id="gallery-swiper-prev">
+          <svg class="swiper-navigation-icon left">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+        <div class="swiper-pagination" id="gallery-swiper-pagination"></div>
+        <button id="gallery-swiper-next">
+          <svg class="swiper-navigation-icon">
+            <use href="/img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
