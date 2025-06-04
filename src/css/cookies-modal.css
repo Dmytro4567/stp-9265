@@ -1,0 +1,59 @@
+.cookies-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  background: var(--footer-coral-red);
+  z-index: 1000;
+  display: none;
+}
+
+.cookies-modal-text {
+  color: #000;
+  margin-bottom: 18px;
+}
+
+.cookies-modal-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 14px;
+  padding: 10px;
+  font-family: var(--third-family);
+  color: var(--black);
+  box-shadow: 0 0 40px 0 var(--electric-gold);
+  background: var(--electric-gold);
+  border: none;
+  border-radius: 20px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.cookies-modal-btn:last-child {
+  margin-bottom: 0;
+}
+
+.cookies-modal-btn:hover {
+  box-shadow: 0 0 60px 0 #ffe974, 0 0 40px 0 #ffe974;
+  background: #ffe974;
+}
+
+@media screen and (min-width: 1200px) {
+  .cookies-modal {
+    padding-bottom: 42px;
+  }
+  .cookies-modal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cookies-modal-text {
+    max-width: 690px;
+  }
+
+  .cookies-modal-btn {
+    width: 182px;
+  }
+}
