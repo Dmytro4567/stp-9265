@@ -8,26 +8,6 @@
             <source
               media="(min-width: 1200px)"
               srcset="
-                /img/world-dungeons/first-dungeon-desk.jpg    1x,
-                /img/world-dungeons/first-dungeon-desk@2x.jpg 2x
-              "
-            />
-            <img
-              class="world-dungeons-image"
-              src="/img/world-dungeons/first-dungeon-mob.jpg"
-              srcset="/img/world-dungeons/first-dungeon-mob@2x.jpg 2x"
-              alt="Boy with a sword in the dark against a monster"
-            />
-          </picture>
-          <p class="world-dungeons-text">
-            Mazdor`s Keep - Final zone with maze-like floors and elite bosses
-          </p>
-        </li>
-        <li class="swiper-slide reverse-flex">
-          <picture>
-            <source
-              media="(min-width: 1200px)"
-              srcset="
                 /img/world-dungeons/second-dungeon-desk.jpg    1x,
                 /img/world-dungeons/second-dungeon-desk@2x.jpg 2x
               "
@@ -63,7 +43,7 @@
             Glacial Tombs - Frozen corridors and slippery floors
           </p>
         </li>
-        <li class="swiper-slide">
+        <li class="swiper-slide reverse-flex">
           <picture>
             <source
               media="(min-width: 1200px)"
@@ -79,7 +59,7 @@
               alt="Verdant Depths"
             />
           </picture>
-          <p class="world-dungeons-text down-text">
+          <p class="world-dungeons-text">
             Verdant Depths - Plant monsters and poison hazards
           </p>
         </li>
@@ -103,23 +83,32 @@
             Aether Citadel - Cosmic magic & dimensional rifts
           </p>
         </li>
+        <li class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /img/world-dungeons/first-dungeon-desk.jpg    1x,
+                /img/world-dungeons/first-dungeon-desk@2x.jpg 2x
+              "
+            />
+            <img
+              class="world-dungeons-image"
+              src="/img/world-dungeons/first-dungeon-mob.jpg"
+              srcset="/img/world-dungeons/first-dungeon-mob@2x.jpg 2x"
+              alt="Boy with a sword in the dark against a monster"
+            />
+          </picture>
+          <p class="world-dungeons-text down-text">
+            Mazdor`s Keep - Final zone with maze-like floors and elite bosses
+          </p>
+        </li>
       </ul>
-      <div class="swiper-pagination-wrapper">
-        <button id="world-dungeons-swiper-prev">
-          <svg class="swiper-navigation-icon left">
-            <use href="/img/sprite.svg#arrow-right"></use>
-          </svg>
-        </button>
-        <div
-          class="swiper-pagination"
-          id="world-dungeons-swiper-pagination"
-        ></div>
-        <button id="world-dungeons-swiper-next">
-          <svg class="swiper-navigation-icon">
-            <use href="/img/sprite.svg#arrow-right"></use>
-          </svg>
-        </button>
-      </div>
+
+      <div
+        class="swiper-pagination"
+        id="world-dungeons-swiper-pagination"
+      ></div>
     </div>
     <p>All maps are procedurally generated — no two runs are the same.</p>
   </div>

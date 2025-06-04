@@ -41,28 +41,12 @@
   margin-bottom: 30px;
 }
 
-#hero-classes .swiper-pagination-wrapper {
-  display: flex;
-  align-items: center;
-  width: 170px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-#hero-classes .swiper-pagination-wrapper button {
-  display: block;
-  padding: 0;
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
-}
-
 #hero-classes .swiper-pagination {
   position: static;
   display: flex;
   gap: 12px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 #hero-classes .swiper-pagination-bullet {
@@ -76,15 +60,6 @@
 
 #hero-classes .swiper-pagination-bullet-active {
   background-color: var(--poison-pink);
-}
-
-#hero-classes .swiper-pagination-wrapper button:disabled {
-  opacity: 0.3;
-}
-
-#hero-classes .swiper-navigation-icon {
-  width: 24px;
-  height: 24px;
 }
 
 #hero-classes .hero-classes-hero-owner-list {
@@ -181,7 +156,7 @@
     max-width: 290px;
   }
 
-  #hero-classes .swiper-pagination-wrapper {
+  #hero-classes .swiper-pagination {
     display: none;
   }
 }

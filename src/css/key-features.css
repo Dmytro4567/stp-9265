@@ -42,43 +42,10 @@
   background-color: #ff65a3;
 }
 
-#key-features .swiper-pagination-wrapper {
-  display: flex;
-  align-items: center;
-  width: 214px;
-  margin: 0 auto;
-}
-
-#key-features .swiper-pagination-wrapper button {
-  display: block;
-  padding: 0;
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
-}
-
-#key-features .swiper-pagination-wrapper button:disabled {
-  opacity: 0.3;
-}
-
-#key-features .swiper-navigation-icon {
-  width: 24px;
-  height: 24px;
-}
-
-.left {
-  transform: rotateY(180deg);
-}
-
 @media screen and (min-width: 1200px) {
   .key-features-title {
     font-size: 36px;
     text-align: left;
-  }
-
-  #key-features .swiper-pagination-wrapper {
-    display: none;
   }
 
   #key-features .swiper {

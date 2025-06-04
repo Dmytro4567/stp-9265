@@ -15,25 +15,12 @@
   font-size: 12px;
 }
 
+#world-dungeons .swiper {
+  margin-bottom: 44px;
+}
+
 #world-dungeons .swiper-wrapper {
   margin-bottom: 30px;
-}
-
-#world-dungeons .swiper-pagination-wrapper {
-  display: flex;
-  align-items: center;
-  width: 170px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
-
-#world-dungeons .swiper-pagination-wrapper button {
-  display: block;
-  padding: 0;
-  border: none;
-  width: 24px;
-  height: 24px;
-  background-color: transparent;
 }
 
 #world-dungeons .swiper-pagination {
@@ -56,20 +43,7 @@
   background-color: var(--poison-pink);
 }
 
-#world-dungeons .swiper-pagination-wrapper button:disabled {
-  opacity: 0.3;
-}
-
-#world-dungeons .swiper-navigation-icon {
-  width: 24px;
-  height: 24px;
-}
-
 @media screen and (min-width: 1200px) {
-  #world-dungeons .swiper-pagination-wrapper {
-    display: none;
-  }
-
   .world-dungeons-title {
     font-size: 36px;
     text-align: right;
@@ -116,6 +90,10 @@
 
   #world-dungeons .swiper-slide:nth-of-type(4) {
     padding-left: 190px;
+  }
+
+  #world-dungeons .swiper-pagination {
+    display: none;
   }
 
   .reverse-flex {
