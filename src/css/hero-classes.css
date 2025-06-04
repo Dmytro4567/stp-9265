@@ -69,6 +69,7 @@
 
 .hero-classes-table-titles {
   display: none;
+  padding-bottom: 5px;
 }
 
 @media screen and (min-width: 1200px) {
