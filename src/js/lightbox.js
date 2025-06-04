@@ -6,11 +6,8 @@ const galleryElements = document.querySelectorAll('#gallery [data-light-box]');
 function setHrefLightbox() {
   if (window.devicePixelRatio > 1) {
     galleryElements.forEach(link => {
-      const str = link.href;
-      const index = str.indexOf('gallery');
-      const afterGallery = str.slice(index + 'gallery'.length);
-      link.href = `.${afterGallery}`;
-      console.log(link.href);
+      const [path, ext] = link.href.split('.');
+      link.href = `${path}@2x.${ext}`;
     });
   }
 }
