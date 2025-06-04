@@ -1,60 +1,61 @@
 :root {
-    /* Color custom properties */
+  /* Color custom properties */
 
-    --main-colour: #d0e1ff;
-    --purple: #6252b0;
-    --black: #000;
-    --poison-pink: #ff65a3;
-    --electric-gold: #ffd700;
-    --header: rgba(98, 82, 176, 0.4);
-    --acid-green: #a8f600;
-    --footer-coral-red: #ff595e;
+  --main-colour: #d0e1ff;
+  --purple: #6252b0;
+  --black: #000;
+  --poison-pink: #ff65a3;
+  --electric-gold: #ffd700;
+  --header: rgba(98, 82, 176, 0.4);
+  --acid-green: #a8f600;
+  --footer-coral-red: #ff595e;
 
-    /* Fonts custom properties */
+  /* Fonts custom properties */
 
-    --font-family: 'Work Sans', sans-serif;
-    --second-family: 'Orbitron', sans-serif;
-    --third-family: "Inter", sans-serif;
-    --font3: 'Chakra Petch', sans-serif;
+  --font-family: 'Work Sans', sans-serif;
+  --second-family: 'Orbitron', sans-serif;
+  --third-family: 'Inter', sans-serif;
+  --font3: 'Chakra Petch', sans-serif;
 }
 
 body,
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: var(--purple);
-    color: var(--main-colour);
-    font-family: var(--font-family);
-    font-size: 16px;
-    margin: 0;
+  background-color: var(--purple);
+  color: var(--main-colour);
+  font-family: var(--font-family);
+  font-size: 16px;
+  margin: 0;
 }
 
 svg {
-    fill: transparent;
-    stroke: var(--black);
+  fill: transparent;
+  stroke: var(--black);
 }
 
 section {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
+  scroll-margin-top: 100px;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 320px;
-    padding: 0 16px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 320px;
+  padding: 0 16px;
 }
 
 @media screen and (min-width: 1200px) {
-    section {
-        margin-bottom: 80px;
-    }
+  section {
+    margin-bottom: 80px;
+  }
 
-    .container {
-        max-width: 1200px;
-        padding: 0 80px;
-    }
+  .container {
+    max-width: 1200px;
+    padding: 0 80px;
+  }
 }

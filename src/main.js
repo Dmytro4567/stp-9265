@@ -6,3 +6,4 @@ import './js/gallery-swiper.js';
 import './js/faq-accardion.js';
 import './js/mobile-menu.js';
 import './js/cookies-modal.js';
+import './js/lightbox.js';
